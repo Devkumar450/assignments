@@ -1,0 +1,26 @@
+.ProductList{
+  display: flex;
+  flex-flow: row wrap;
+  background-color:blanchedalmond;
+  border-color: beige;
+  margin: 5px;
+}
+.productCard{
+  text-align: center;
+  line-height: 75px;
+  flex: 0 1 calc(20% - 8px);
+  font-size: 30px;
+  margin-top: auto;
+  padding: 2px;
+  
+  
+}
+.productCard .image-round{
+height: 200px;
+width: 250px;
+margin: 5px;
+}
+.productCard img{
+  height: 60px;
+  width: 60px;
+}
